@@ -1,0 +1,17 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        {% partial 'layout/head' %}
+    </head>
+    <body>
+        {% partial 'layout/header' %}
+
+        {% page %}
+
+        {% partial 'layout/footer' %}
+
+        {% partial 'layout/foot' %}
+    </body>
+</html>
